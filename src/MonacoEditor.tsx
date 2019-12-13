@@ -47,7 +47,7 @@ const MonacoEditor: React.FC<IProps> =
     };
 
     useEffect(() => {
-      if (options && options.readOnly && editorRef.current) {
+      if (options && options.readOnly && editorRef.current && editorRef.current.getValue() !== value) {
         editorRef.current.setValue(value);
       } else if (editorRef.current && editorRef.current.getValue() !== value) {
         editorRef.current.executeEdits("", [{
