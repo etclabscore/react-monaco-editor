@@ -57,7 +57,7 @@ npm install @rescripts/cli --save-dev
 
 ### 3. Add new file called in root of your project called rescript-monaco.js
 
-```
+```js
 const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin');
 const { prependWebpackPlugin } = require("@rescripts/utilities");
 
