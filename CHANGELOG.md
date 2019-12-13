@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/etclabscore/react-monaco-editor/compare/1.0.2...1.0.3) (2019-12-13)
+
+
+### Bug Fixes
+
+* **README:** use rescript utils to prepend webpack plugin ([c3dcd88](https://github.com/etclabscore/react-monaco-editor/commit/c3dcd8827c88f50848f8bfee1e6d4cd623d651bf))
+* dont update if not changed for read only ([2eae929](https://github.com/etclabscore/react-monaco-editor/commit/2eae929e98a57a4f4630b5b213a9e24b961c7b55))
+
 ## [1.0.2](https://github.com/etclabscore/react-monaco-editor/compare/1.0.1...1.0.2) (2019-12-13)
 
 
