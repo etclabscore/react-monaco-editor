@@ -1,25 +1,15 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "esnext",
+    "module": "commonjs",
     "lib": [
       "es2015",
       "dom"
     ],
+    "declaration": true,
     "outDir": "./build",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "preserve",
-    "allowJs": true
-  },
-  "include": [
-    "src"
-  ]
+    "jsx": "preserve"
+  }
 }
