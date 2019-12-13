@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/etclabscore/react-monaco-editor/compare/1.0.0...1.0.1) (2019-12-13)
+
+
+### Bug Fixes
+
+* **build:** issue with tsconfig ([debd480](https://github.com/etclabscore/react-monaco-editor/commit/debd4807d61c4b0d06088285e62587a4e8fd9cb3))
+* **release:** remove github pages release ([b61e13d](https://github.com/etclabscore/react-monaco-editor/commit/b61e13d59b781bb74b0f818b0d3c83aa7ae79e77))
+
 # 1.0.0 (2019-12-13)
 
 
