@@ -107,6 +107,29 @@ module.exports = function override(config, env) {
 }
 ```
 
+
+### 5. Use the component:
+
+```js
+const MyComponent = ({value}) => {
+  const handleEditorDidMount = (editor) => {
+
+  }
+  const handleChange = (ev, value) => {
+
+  }
+  return (
+    <MonacoEditor
+      height="100vh"
+      value={value}
+      editorDidMount={handleEditorDidMount}
+      language="json"
+      onChange={handleChange}
+    />
+  );
+}
+```
+
 ### Contributing
 
 How to contribute, build and release are outlined in [CONTRIBUTING.md](CONTRIBUTING.md), [BUILDING.md](BUILDING.md) and [RELEASING.md](RELEASING.md) respectively. Commits in this repository follow the [CONVENTIONAL_COMMITS.md](CONVENTIONAL_COMMITS.md) specification.
