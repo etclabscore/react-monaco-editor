@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/etclabscore/react-monaco-editor/compare/1.0.1...1.0.2) (2019-12-13)
+
+
+### Bug Fixes
+
+* tsconfig ([30c5463](https://github.com/etclabscore/react-monaco-editor/commit/30c54637338ef91b368cab54084ffcdbceda778c))
+* **README:** add import to component code example ([30f249d](https://github.com/etclabscore/react-monaco-editor/commit/30f249d6b105a041d8c1f17a06296af367b017e4))
+
 ## [1.0.1](https://github.com/etclabscore/react-monaco-editor/compare/1.0.0...1.0.1) (2019-12-13)
 
 
