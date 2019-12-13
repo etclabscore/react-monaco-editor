@@ -111,6 +111,8 @@ module.exports = function override(config, env) {
 ### 5. Use the component:
 
 ```js
+import MonacoEditor from "@etclabscore/react-monaco-editor";
+
 const MyComponent = ({value}) => {
   const handleEditorDidMount = (editor) => {
 
