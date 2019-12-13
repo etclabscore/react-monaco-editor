@@ -10,6 +10,8 @@
     "outDir": "./build",
     "strict": true,
     "esModuleInterop": true,
-    "jsx": "preserve"
+    "isolatedModules": false,
+    "allowJs": false,
+    "jsx": "react"
   }
 }
