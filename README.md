@@ -12,7 +12,11 @@ npm install @etclabscore/react-monaco-editor --save
 ```
 
 ```sh
-npm install @rescripts/cli --save-dev
+npm install @rescripts/cli @rescripts/utilities --save-dev
+```
+
+```sh
+npm install monaco-editor-webpack-plugin --save-dev
 ```
 
 ### 2. Replace `react-scripts` calls with `rescripts` calls
