@@ -1,9 +1,9 @@
 # React Monaco Editor
 
-Monaco Editor Wrapper for integration with react + webpack.
+Monaco Editor Wrapper for integration with react + webpack. Based on [SurenAt93/monaco-react/](https://github.com/SurenAt93/monaco-react/) but does not load from a CDN. It loads monaco via `monaco-editor-webpack-plugin` and gives installation instructions for a new or existing project via `rescripts`.
 
 
-## Setup in a new project
+## Setup in a new create-react-app project
 
 ### 1. Install deps
 
