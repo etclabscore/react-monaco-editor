@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/etclabscore/react-monaco-editor/compare/1.0.3...1.0.4) (2020-03-09)
+
+
+### Bug Fixes
+
+* **README:** update readme about how monaco editor is loaded ([c5488e6](https://github.com/etclabscore/react-monaco-editor/commit/c5488e65b6060bb771358542c81ac800245b6270))
+* **README:** update steps to include monaco-editor-webpack-plugin ([1a35297](https://github.com/etclabscore/react-monaco-editor/commit/1a3529795f5c717906ff3e04ed361ee8b638801f))
+* options parameter ([da4bacb](https://github.com/etclabscore/react-monaco-editor/commit/da4bacb8abd765cf68fb1fc71837d3ab7a87c4c9))
+
 ## [1.0.3](https://github.com/etclabscore/react-monaco-editor/compare/1.0.2...1.0.3) (2019-12-13)
 
 
