@@ -7,7 +7,7 @@ interface IProps {
   language: string;
   editorDidMount: (editor: any, ref: React.RefObject<any>) => any;
   onChange?: (ev: any, value: string) => any;
-  options?: any;
+  editorOptions?: any;
   line?: number;
   loading?: Element | string;
   width?: string | number;
@@ -16,7 +16,7 @@ interface IProps {
 }
 
 const MonacoEditor: React.FC<IProps> =
-  ({ width, height, loading, value, language, options, editorDidMount, onChange, controlled }) => {
+  ({ width, height, loading, value, language, editorOptions, editorDidMount, onChange, controlled }) => {
     const [isEditorReady, setIsEditorReady] = useState(false);
     const previousValue = useRef(value);
     const containerRef = useRef<any>(null);
@@ -26,12 +26,12 @@ const MonacoEditor: React.FC<IProps> =
       if (!containerRef || !containerRef.current) {
         return;
       }
-      editorRef.current = monaco.editor.create(containerRef.current, {
+      const resultOptions = {
         value,
         language,
-        automaticLayout: true,
-        ...options,
-      });
+        ...editorOptions,
+      };
+      editorRef.current = monaco.editor.create(containerRef.current, resultOptions);
       editorDidMount(editorRef.current.getValue.bind(editorRef.current), editorRef.current);
 
       setIsEditorReady(true);
@@ -47,7 +47,7 @@ const MonacoEditor: React.FC<IProps> =
     };
 
     useEffect(() => {
-      if (options && options.readOnly && editorRef.current && editorRef.current.getValue() !== value) {
+      if (editorOptions && editorOptions.readOnly && editorRef.current && editorRef.current.getValue() !== value) {
         editorRef.current.setValue(value);
       } else if (editorRef.current && editorRef.current.getValue() !== value) {
         editorRef.current.executeEdits("", [{
@@ -55,7 +55,8 @@ const MonacoEditor: React.FC<IProps> =
           text: value,
         }]);
       }
-    }, [value, options]);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [value]);
 
     useEffect(() => {
       createEditor();
