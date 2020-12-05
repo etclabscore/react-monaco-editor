@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/etclabscore/react-monaco-editor/compare/1.0.4...1.1.0) (2020-12-05)
+
+
+### Features
+
+* update monaco to 0.21.0 ([bfa4db2](https://github.com/etclabscore/react-monaco-editor/commit/bfa4db260997c407d9b1ec79653622c461b90130))
+
 ## [1.0.4](https://github.com/etclabscore/react-monaco-editor/compare/1.0.3...1.0.4) (2020-03-09)
 
 
