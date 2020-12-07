@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/etclabscore/react-monaco-editor/compare/1.1.0...1.1.1) (2020-12-07)
+
+
+### Bug Fixes
+
+* bump monaco to 0.21.2 to get bug fix for monaco.languages.json.jsonDefaults ([041dd99](https://github.com/etclabscore/react-monaco-editor/commit/041dd995fb6ee6788a9b3e39166d558af79f2ddc))
+
 # [1.1.0](https://github.com/etclabscore/react-monaco-editor/compare/1.0.4...1.1.0) (2020-12-05)
 
 
